@@ -5,6 +5,7 @@ void main() {
 
   //number data type
   int age = 24;
+
   age = 26;
   print(age);
   // double pi = 3.1416;
@@ -27,11 +28,13 @@ void main() {
   names.remove("sudhir");
   print(names);
   print(names2);
+
+  names[0];
   names[2];
 
   Map maptype = {"name": "sudhir", "age": 24, "address": "kathmandu"};
 
-  print(maptype["age"]);
+  print(maptype["name"]);
 
   Runes map = Runes("🇳🇵");
 
